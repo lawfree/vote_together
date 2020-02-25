@@ -1,0 +1,18 @@
+<!--添加数据-->
+<input placeholder="输入名字:" bindinput="addName"></input>
+<input placeholder="输入年龄:" bindinput="addAge"></input>
+
+
+<button bindtap="addData" type="primary" >添加数据</button>
+
+<button bindtap="getData"  >查询数据</button>
+
+<!-- 删除数据 -->
+<input placeholder="输入要删的id:" bindinput="delDataInput"></input>
+<button bindtap="delData">删除数据</button>
+
+
+<!-- 更新数据 -->
+<input placeholder="填写要更新的id" bindinput="updateDataInput"></input>
+<input placeholder="填写新的年龄" bindinput="updateAge"></input>
+<button bindtap="upData" type="prim">更新数据</button>

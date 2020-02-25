@@ -1,0 +1,7 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+
+page {
+    background: #F0F0F0;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+<!--pages/detail/optiondetail/optiondetail.wxml-->
+<block wx:for="{{detail}}" wx:key="">
+  <view class='opt'>选择:[{{item[0]}}]的用户有:{{count}}</view>
+  <!-- <block wx:for="{{item[1]}}" wx:key="">
+     <text class='name'>|  {{item.name}}  </text>
+  </block> -->
+    <block wx:for="{{item[1]}}" wx:key="">
+     <text class='name'>|  {{item}}  </text>
+  </block>
+</block>

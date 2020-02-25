@@ -1,0 +1,46 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/create/create",
+    "pages/involved/involved",
+
+    "pages/index1/index1",
+    "pages/index2/index2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7CCD7C",
+    "navigationBarTitleText": "大家来投票啊",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#FFF",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#7CCD7C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/common/1.png",
+        "selectedIconPath": "images/common/1-1.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/create/create",
+        "iconPath": "images/common/2.png",
+        "selectedIconPath": "images/common/2-2.png",
+        "text": "创建"
+      },
+      {
+        "pagePath": "pages/involved/involved",
+        "iconPath": "images/common/3.png",
+        "selectedIconPath": "images/common/3-3.png",
+        "text": "我的"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

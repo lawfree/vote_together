@@ -1,0 +1,6 @@
+<button bindtap="qiuhe">云函数获取加法</button>
+<button bindtap="getopenid">获取用户openid</button>
+
+<!-- 获取数据库 -->
+<button bindtap="getData_db">数据库api获得数据</button>
+<button bindtap="getData_cloud">云函数api获得数据</button>
